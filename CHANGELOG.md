@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.9](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.8...v1.2.9) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** Add --provenance ([5618074](https://github.com/joeyparrish/webdriver-installer/commit/5618074dfe05c2007a83c0696b00776e7d0438d2))
+
 ## [1.2.8](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.7...v1.2.8) (2025-12-15)
 
 
