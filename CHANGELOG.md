@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.1...v1.2.2) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** Fix publication of scoped versions from forks ([6b770aa](https://github.com/joeyparrish/webdriver-installer/commit/6b770aa306afdfc3eb542d99b61f50211773c236))
+
 ## [1.2.1](https://github.com/joeyparrish/webdriver-installer/compare/v1.1.4...v1.2.1) (2025-12-15)
 
 
