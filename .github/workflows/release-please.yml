@@ -12,9 +12,7 @@ jobs:
     permissions:
       # Required for OIDC ("trusted publishing").
       # NOTE: Under review
-      # NOTE: OIDC still fails unless the publishing NPM account disables
-      # "Require two-factor authentication for write actions" under Settings >
-      # Account > Additional Options and selects "Require two-factor
+      # NOTE: OIDC still fails unless the publisher selects "Require two-factor
       # authentication or a granular access token with bypass 2fa enabled"
       # under Package Settings > Publishing Access.
       id-token: write
