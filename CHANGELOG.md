@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.5...v1.2.6) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** Move all permissions to workflow level ([2112af9](https://github.com/joeyparrish/webdriver-installer/commit/2112af99c1d679c5d3f83c87fe63e8605a14afa6))
+
 ## [1.2.5](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.4...v1.2.5) (2025-12-15)
 
 
