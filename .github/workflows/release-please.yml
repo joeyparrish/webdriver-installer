@@ -35,7 +35,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           # NOTE: OIDC fails with node less than 24.
-          node-version: 24
+          node-version: 22
           registry-url: 'https://registry.npmjs.org'
         if: ${{ steps.release.outputs.release_created }}
 
