@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.2.14](https://github.com/joeyparrish/webdriver-installer/compare/v1.1.4...v1.2.14) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** Accumulated changelog changes ([0ecb2b5](https://github.com/joeyparrish/webdriver-installer/commit/0ecb2b51d55cc82e2f9f5da014233f5a4b4c1d16))
+* **ci:** Fixes for forks ([5c2feb3](https://github.com/joeyparrish/webdriver-installer/commit/5c2feb3ee576d55baf69a5a92f9c080b4010180a))
+* **ci:** Stop using NPM token, use trusted publishing ([#53](https://github.com/joeyparrish/webdriver-installer/issues/53)) ([1c39ef4](https://github.com/joeyparrish/webdriver-installer/commit/1c39ef49834fc6372dc2384739990d599a450eff))
+* **ci:** Test node 22 again ([a2929b4](https://github.com/joeyparrish/webdriver-installer/commit/a2929b441d7df04a17e02e978619e0cc16c19aae))
+* **ci:** Trusted publishing works ([1d2b9dd](https://github.com/joeyparrish/webdriver-installer/commit/1d2b9dd021690e972d344603db42f08c5707c723))
+* **ci:** Update npm to support OIDC for trusted publishing ([#55](https://github.com/joeyparrish/webdriver-installer/issues/55)) ([e95d0a2](https://github.com/joeyparrish/webdriver-installer/commit/e95d0a27b1d4c251d70b5aaa0b9d05f978ef4b4b))
+* Fix Chromedriver download for version 115+ ([#28](https://github.com/joeyparrish/webdriver-installer/issues/28)) ([1d17e40](https://github.com/joeyparrish/webdriver-installer/commit/1d17e40c70be980067f4972d538ddb55db88c759))
+* Fix Firefox macOS hang ([#48](https://github.com/joeyparrish/webdriver-installer/issues/48)) ([79bb757](https://github.com/joeyparrish/webdriver-installer/commit/79bb757ada95351adfcea76ce1ab21e37d2f0cce)), closes [#47](https://github.com/joeyparrish/webdriver-installer/issues/47)
+* Fix msedgedriver install ([#51](https://github.com/joeyparrish/webdriver-installer/issues/51)) ([3a25d6c](https://github.com/joeyparrish/webdriver-installer/commit/3a25d6ce1fec24259672202b9fa93df2bfe67180))
+* Fix msedgedriver version detection ([#20](https://github.com/joeyparrish/webdriver-installer/issues/20)) ([3838b88](https://github.com/joeyparrish/webdriver-installer/commit/3838b889772e2a0ce7167e9220969b25714f0d03))
+* Get the correct binary for Edge on M1 macs ([#30](https://github.com/joeyparrish/webdriver-installer/issues/30)) ([b5303ea](https://github.com/joeyparrish/webdriver-installer/commit/b5303ea26653cee24a122208a1e7088021a77ebe))
+* Get the correct binary for Firefox on M1 macs ([#31](https://github.com/joeyparrish/webdriver-installer/issues/31)) ([f0e5a7c](https://github.com/joeyparrish/webdriver-installer/commit/f0e5a7cc8d7ccc8f367bcf9386c383645e16eb3d))
+* Ignore errors executing non-executable drivers ([#23](https://github.com/joeyparrish/webdriver-installer/issues/23)) ([07c8644](https://github.com/joeyparrish/webdriver-installer/commit/07c864446e68e6f8714c3d1a899b42b2d0931aae)), closes [#22](https://github.com/joeyparrish/webdriver-installer/issues/22)
+* Make installation process error-resilient ([#45](https://github.com/joeyparrish/webdriver-installer/issues/45)) ([b70732b](https://github.com/joeyparrish/webdriver-installer/commit/b70732b1f6cfab0718cca742b5c0e61899dfd752))
+* Retry when WebDriver updates are not available yet ([#24](https://github.com/joeyparrish/webdriver-installer/issues/24)) ([e0312c8](https://github.com/joeyparrish/webdriver-installer/commit/e0312c89eab70bbb7241298846dff93e4a690753))
+* Revert EdgeDriver 115+ workaround ([#35](https://github.com/joeyparrish/webdriver-installer/issues/35)) ([6df9bc2](https://github.com/joeyparrish/webdriver-installer/commit/6df9bc2ba996a022361a299d511b99e1ea815b79))
+* Work around failure to launch Edge on Linux ([#32](https://github.com/joeyparrish/webdriver-installer/issues/32)) ([ce45a24](https://github.com/joeyparrish/webdriver-installer/commit/ce45a243e2d4e63ef32992607a1228d2b079d960))
+
 ## [1.2.13](https://github.com/joeyparrish/webdriver-installer/compare/v1.1.4...v1.2.13) (2025-12-15)
 
 
