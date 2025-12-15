@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      # Required for OIDC ("trusted publishing")
+      # Required for OIDC ("trusted publishing").
+      # NOTE: OIDC still fails unless the publishing account disables "Require
+      # two-factor authentication for write actions" under Settings > Account
+      # on NPM.
       id-token: write
       # Write to "contents" is needed to create a release
       contents: write
