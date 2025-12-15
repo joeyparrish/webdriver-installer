@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.2...v1.2.3) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** Fix trusted publishing permissions ([d760963](https://github.com/joeyparrish/webdriver-installer/commit/d7609636e4d00466ee1c8e92653c1cd4bf14fdd7))
+
 ## [1.2.2](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.1...v1.2.2) (2025-12-15)
 
 
