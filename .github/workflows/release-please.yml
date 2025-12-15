@@ -5,17 +5,17 @@ on:
     branches:
       - main
 
+permissions:
+  # Write to "contents" is needed to create a release
+  contents: write
+  # Write to pull-requests is needed to create and update the release PR
+  pull-requests: write
+  # Required for OIDC
+  id-token: write
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
-
-    permissions:
-      # Write to "contents" is needed to create a release
-      contents: write
-      # Write to pull-requests is needed to create and update the release PR
-      pull-requests: write
-      # Required for OIDC
-      id-token: write
 
     steps:
       # Create/update release PR
