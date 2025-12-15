@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.12](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.11...v1.2.12) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** More fixes for forks ([5357418](https://github.com/joeyparrish/webdriver-installer/commit/5357418761e10c1acc9c9b7c6d0404dc06b321a9))
+
 ## [1.2.11](https://github.com/joeyparrish/webdriver-installer/compare/v1.1.4...v1.2.11) (2025-12-15)
 
 
