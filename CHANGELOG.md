@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.3...v1.2.4) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** Try permissions all at job level ([0b745e5](https://github.com/joeyparrish/webdriver-installer/commit/0b745e57e1533de5956610a2041632b5a4e53dde))
+
 ## [1.2.3](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.2...v1.2.3) (2025-12-15)
 
 
