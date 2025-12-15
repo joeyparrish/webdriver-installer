@@ -5,6 +5,12 @@ on:
     branches:
       - main
 
+permissions:
+  # Required for OIDC, and must be at workflow level, not job level.
+  # Furthermore, your NPM account must have "Require two-factor authentication
+  # for write actions" disabled.
+  id-token: write
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -14,8 +20,6 @@ jobs:
       contents: write
       # Write to pull-requests is needed to create and update the release PR
       pull-requests: write
-      # Required for OIDC
-      id-token: write
 
     steps:
       # Create/update release PR
