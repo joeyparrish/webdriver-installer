@@ -5,14 +5,13 @@ on:
     branches:
       - main
 
-permissions:
-  id-token: write  # Required for OIDC
-
 jobs:
   release-please:
     runs-on: ubuntu-latest
 
     permissions:
+      # Required for OIDC ("trusted publishing")
+      id-token: write
       # Write to "contents" is needed to create a release
       contents: write
       # Write to pull-requests is needed to create and update the release PR
@@ -35,13 +34,15 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          # NOTE: OIDC fails with node less than 24.
+          node-version: 24
           registry-url: 'https://registry.npmjs.org'
         if: ${{ steps.release.outputs.release_created }}
 
-      # Ensure npm 11.5.1 or later is installed for OIDC
+      # NOTE: OIDC fails with npm less than 11.5.1.
       - name: Update npm
-        run: npm install -g npm@latest
+        run: sudo npm install -g npm@latest
+        if: ${{ steps.release.outputs.release_created }}
 
       - run: npm ci
         if: ${{ steps.release.outputs.release_created }}
