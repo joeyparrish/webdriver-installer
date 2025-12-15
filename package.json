@@ -1,6 +1,6 @@
 {
   "name": "@joeyparrish/webdriver-installer-staging",
-  "version": "1.2.18",
+  "version": "1.2.19",
   "description": "Install the right WebDriver version for your local browsers, automatically.",
   "main": "main.js",
   "bin": {
