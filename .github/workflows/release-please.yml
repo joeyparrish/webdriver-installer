@@ -46,7 +46,9 @@ jobs:
       - run: npm ci
         if: ${{ steps.release.outputs.release_created }}
 
-      - run: npm publish --access public
+      # NOTE: --access public is required for scoped forks
+      # NOTE: --provenance is required for OIDC
+      - run: npm publish --access public --provenance
         if: ${{ steps.release.outputs.release_created }}
 
       - run: npm pack
