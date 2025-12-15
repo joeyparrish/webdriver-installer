@@ -40,7 +40,8 @@ jobs:
 
       # Ensure npm 11.5.1 or later is installed for OIDC
       - name: Update npm
-        run: npm install -g npm@latest
+        run: sudo npm install -g npm@latest
+        if: ${{ steps.release.outputs.release_created }}
 
       - run: npm ci
         if: ${{ steps.release.outputs.release_created }}
