@@ -34,7 +34,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           registry-url: 'https://registry.npmjs.org'
         if: ${{ steps.release.outputs.release_created }}
 
@@ -47,8 +47,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
 
       # NOTE: --access public is required for scoped forks
-      # NOTE: --provenance is required for OIDC
-      - run: npm publish --access public --provenance
+      - run: npm publish --access public
         if: ${{ steps.release.outputs.release_created }}
 
       - run: npm pack
