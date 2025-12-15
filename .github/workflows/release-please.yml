@@ -6,11 +6,7 @@ on:
       - main
 
 permissions:
-  # Required for OIDC, and must be at the workflow level, not the job level.
-  # In fact, you can't have any additional permissions at the level of the job
-  # that contains "npm publish", or OIDC breaks then, too.  Furthermore, your
-  # NPM account must have "Require two-factor authentication for write actions"
-  # disabled under Settings > Account.
+  # Required for OIDC ("trusted publishing")
   id-token: write
   # Write to "contents" is needed to create a release
   contents: write
