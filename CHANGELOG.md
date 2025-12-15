@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.10](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.9...v1.2.10) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** Drop --provenance and use node 24 ([086b4b9](https://github.com/joeyparrish/webdriver-installer/commit/086b4b9d5d9db7876f63d180fae30dfd45feb639))
+
 ## [1.2.9](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.8...v1.2.9) (2025-12-15)
 
 
