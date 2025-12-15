@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.5](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.4...v1.2.5) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** Move OIDC back to workflow level ([fa5c211](https://github.com/joeyparrish/webdriver-installer/commit/fa5c21108b0660b34a4d76ca74556b518bb371d5))
+
 ## [1.2.4](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.3...v1.2.4) (2025-12-15)
 
 
