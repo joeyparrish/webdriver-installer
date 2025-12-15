@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.8](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.7...v1.2.8) (2025-12-15)
+
+
+### Bug Fixes
+
+* **ci:** Update repository.url ([ffdf45f](https://github.com/joeyparrish/webdriver-installer/commit/ffdf45fd0f075adf2e42dea37048f3d1173d6b98))
+
 ## [1.2.7](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.6...v1.2.7) (2025-12-15)
 
 
