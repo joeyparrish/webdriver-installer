@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://github.com/joeyparrish/webdriver-installer/compare/v1.2.4...v1.3.0) (2026-02-06)
+
+
+### Features
+
+* Add Opera support ([#61](https://github.com/joeyparrish/webdriver-installer/issues/61)) ([e242054](https://github.com/joeyparrish/webdriver-installer/commit/e242054106996d2f2d0078964dedac6d6c4caf73))
+
+
+### Bug Fixes
+
+* **ci:** Fixed typo in NPM config ([a052388](https://github.com/joeyparrish/webdriver-installer/commit/a052388f6ea4c6997c67a75418fa900b851a8ed3))
+* **ci:** More robust release workflow ([7adfe43](https://github.com/joeyparrish/webdriver-installer/commit/7adfe43f0507f922c167f0749896f9fcf301f904))
+
 ## [1.3.0](https://github.com/shaka-project/webdriver-installer/compare/v1.2.5...v1.3.0) (2026-01-26)
 
 
